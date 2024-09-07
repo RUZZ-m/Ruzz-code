@@ -22,7 +22,7 @@
 
                         <div class="mb-3">
                         <label for="" class="form-label">Id Supplier</label>
-                        <select name="id_supplier" id="">
+                        <select name="id_supplier" id="" class="form-control">
                         @foreach($supplier as $supplier)
                         <option value="{{$supplier->id}}">{{$supplier->nama_supplier}}</option>
                         @endforeach
@@ -38,7 +38,7 @@
 
                        <div class="mb-3">
                         <label for="" class="form-label">Id Barang</label>
-                        <select name="id_barang" id="">
+                        <select name="id_barang" id="" class="form-control">
                         @foreach($barang as $barang)
                         <option value="{{$barang->id}}">{{$barang->nama_barang}}</option>
                         @endforeach

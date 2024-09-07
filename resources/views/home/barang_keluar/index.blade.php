@@ -9,6 +9,7 @@
                     <div class="card-header">
                         <h3>Halaman Data Barang Keluar</h3>
                         <a class="btn btn-primary" href="/barang_keluar/tambah">Tambah</a>
+                        <a class="btn btn-primary" href="/barang_keluar/report">print</a>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">

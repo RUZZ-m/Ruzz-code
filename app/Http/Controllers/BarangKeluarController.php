@@ -92,4 +92,9 @@ class BarangKeluarController extends Controller
         $barang_keluar->delete();
         return redirect('/barang_keluar');
     }
+    public function report()
+    {
+        $barang_keluar= BarangKeluar::all();
+        return view('home.barang_keluar.report', compact('barang_keluar'));
+    }
 }

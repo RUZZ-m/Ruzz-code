@@ -7,7 +7,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Halaman Tambah Data Barang Masuk</h3>
+                        <h3>Halaman Tambah Data Barang Keluar</h3>
                         <a class="btn btn-primary" href="/barang_keluar">Kembali</a>
                     </div>
                     <div class="card-body">
@@ -20,7 +20,7 @@
 
                        <div class="mb-3">
                         <label for="" class="form-label">Id Barang</label>
-                        <select name="id_barang" id="">
+                        <select name="id_barang" id="" class="form-control">
                         @foreach($barang as $barang)
                         <option value="{{$barang->id}}">{{$barang->nama_barang}}</option>
                         @endforeach

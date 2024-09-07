@@ -60,6 +60,7 @@ route::get('/barang_masuk/{id}/delete', [BarangMasuk2Controller::class, 'destroy
 route::get('/barang_keluar', [BarangKeluarController::class, 'index']);
 route::get('/barang_keluar/tambah', [BarangKeluarController::class, 'create']);
 route::post('/barang_keluar/simpan', [BarangKeluarController::class, 'store']);
+route::get('/barang_keluar/report', [BarangKeluarController::class, 'report']);
 route::get('/barang_keluar/{id}/show', [BarangKeluarController::class, 'show']);
 route::post('/barang_keluar/{id}/update', [BarangKeluarController::class, 'update']);
 route::get('/barang_keluar/{id}/delete', [BarangKeluarController::class, 'destroy']);
